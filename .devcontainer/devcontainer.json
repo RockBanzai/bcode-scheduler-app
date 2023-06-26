@@ -1,0 +1,14 @@
+{
+  "name": ".NET 7 SDK Dev Container",
+  "dockerFile": "Dockerfile",
+  "extensions": [
+    "ms-dotnettools.csharp",
+    "mhutchie.git-graph"
+  ],
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "forwardPorts": [
+    5000
+  ]
+}
